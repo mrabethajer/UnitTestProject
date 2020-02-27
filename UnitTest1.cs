@@ -137,7 +137,7 @@ namespace UnitTestProject
                 }
             }
         }
-        [TestCase]
+      /*  [TestCase]
         public void readData()
         {
 
@@ -149,7 +149,7 @@ namespace UnitTestProject
 
             Console.WriteLine(myFile.FullName);
 
-        }
+        }*/
 
         }
 

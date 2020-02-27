@@ -43,7 +43,7 @@
         <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 
             <a>
-                <span class='suite-start-time label blue darken-3'>19/02/2020 17:15:31 W. Central Africa Standard Time</span>
+                <span class='suite-start-time label blue darken-3'>26/02/2020 15:42:34 W. Central Africa Standard Time</span>
             </a>
             <a>
                 <span class="label blue darken-3">3.1.0</span>
@@ -159,14 +159,14 @@
                     <li class='test displayed active  fail' status='fail' test-id='1'>
                         <div class='test-heading'>
                             <span class='test-name'>Test1</span>
-                            <span class='test-time'>19/02/2020 17:15:31</span>
+                            <span class='test-time'>26/02/2020 15:42:34</span>
                             <span class='test-status right fail'>Fail</span>
                         </div>
                         <div class='test-content hide'>
                                 <div class='test-time-info'>
-                                    <span class='label start-time'>19/02/2020 17:15:31</span>
-                                    <span class='label end-time'>19/02/2020 17:17:27</span>
-                                    <span class='label time-taken grey lighten-1 white-text'>00:01:56.1584683</span>
+                                    <span class='label start-time'>26/02/2020 15:42:34</span>
+                                    <span class='label end-time'>26/02/2020 15:44:35</span>
+                                    <span class='label time-taken grey lighten-1 white-text'>00:02:00.9211761</span>
                                 </div>
                                     <div class='test-steps'>
                                         <table class='bordered table-results'>
@@ -180,27 +180,25 @@
                                             <tbody>
                                                     <tr class='log' status='info'>
                                                         <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-                                                        <td class='timestamp'>19/02/2020 17:15:31</td>
+                                                        <td class='timestamp'>26/02/2020 15:42:34</td>
                                                         <td class='step-details'>test started</td>
                                                     </tr>
                                                     <tr class='log' status='info'>
                                                         <td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-                                                        <td class='timestamp'>19/02/2020 17:15:31</td>
+                                                        <td class='timestamp'>26/02/2020 15:42:34</td>
                                                         <td class='step-details'>LongView started</td>
                                                     </tr>
                                                     <tr class='log' status='fail'>
                                                         <td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-                                                        <td class='timestamp'>19/02/2020 17:17:27</td>
-                                                        <td class='step-details'>NUnit.Framework.AssertionException:   Expected string length 3 but was 11. Strings differ at index 0.
-  Expected: "100"
-  But was:  "65,00000000"
-  -----------^
-
-   at NUnit.Framework.Assert.ReportFailure(String message) in D:\a\1\s\src\NUnitFramework\framework\Assert.cs:line 394
-   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args) in D:\a\1\s\src\NUnitFramework\framework\Assert.cs:line 382
-   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in D:\a\1\s\src\NUnitFramework\framework\Assert.That.cs:line 240
-   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual) in D:\a\1\s\src\NUnitFramework\framework\Assert.Equality.cs:line 128
-   at UnitTestProject.UnitTest1.TestMethod1() in C:\Users\hamrabet\source\repos\UnitTestProject\UnitTest1.cs:line 116</td>
+                                                        <td class='timestamp'>26/02/2020 15:44:35</td>
+                                                        <td class='step-details'>System.IO.IOException: The process cannot access the file 'C:\Users\hamrabet\Documents\g.xlsx' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at UnitTestProject.ExcelUtil.ExcelToDataTable(String fileName) in C:\Users\hamrabet\source\repos\UnitTestProject\ExcelUtil.cs:line 42
+   at UnitTestProject.ExcelUtil.PopulateInCollection(String fileName) in C:\Users\hamrabet\source\repos\UnitTestProject\ExcelUtil.cs:line 74
+   at UnitTestProject.UnitTest1.TestMethod1() in C:\Users\hamrabet\source\repos\UnitTestProject\UnitTest1.cs:line 112</td>
                                                     </tr>
                                             </tbody>
                                         </table>
@@ -296,19 +294,19 @@
             <div class='col s2'>
                 <div class='card-panel r'>
                     Start
-                    <div class='panel-lead'>19/02/2020 17:15:31</div>
+                    <div class='panel-lead'>26/02/2020 15:42:34</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     End
-                    <div class='panel-lead'>19/02/2020 17:17:31</div>
+                    <div class='panel-lead'>26/02/2020 15:44:38</div>
                 </div>
             </div>
             <div class='col s2'>
                 <div class='card-panel r'>
                     Time Taken
-                    <div class='panel-lead'>00:02:00.0760227</div>
+                    <div class='panel-lead'>00:02:04.3791506</div>
                 </div>
             </div>
 
